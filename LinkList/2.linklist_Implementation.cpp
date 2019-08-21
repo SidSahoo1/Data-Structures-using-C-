@@ -29,6 +29,10 @@ int main() {
     cout<< n1->data <<"->"<< n2->data <<"->"<< n3->data <<"->"<< n4->data <<endl;
     //printing of linklist using head
     cout<< head->data <<"->"<< head->next->data <<"->"<< head->next->next->data <<"->"<< head->next->next->next->data <<endl;
-    
+
+    //Address of the nodes
+    cout<<&n1<<" "<<&n2<<" "<<&n3<<" "<<&n4<<" "<<endl;
+    //size of the node
+    cout<<sizeof(n1)<<endl;
 
 }
