@@ -34,5 +34,4 @@ int main() {
     cout<<&n1<<" "<<&n2<<" "<<&n3<<" "<<&n4<<" "<<endl;
     //size of the node
     cout<<sizeof(n1)<<endl;
-
 }
